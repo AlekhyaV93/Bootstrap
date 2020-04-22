@@ -110,7 +110,10 @@
 
         </div>
 
-        <div class="row row-contentcommunity">
+
+        <!--using nav tabs-->
+
+        <!--<div class="row row-contentcommunity">
             <div class="col ">
                 <h3>Community Partners</h3>
                 <ul class="nav nav-tabs">
@@ -150,7 +153,82 @@
                     </div>
                 </div>
             </div>
+        </div>-->
+
+        <!-- using accordian-->
+        <div class="row row-contentcommunity">
+            <div class="col ">
+                <div id="accordian">
+                    <h3>Community Partners</h3>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#bootstrap">
+                                    Bootstrap Outfitters <small>Outdoor Gear Specialists</small>
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div class="collapse show" id="bootstrap" data-parent="#accordian">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at
+                                    prices
+                                    you
+                                    can't beat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" data-target="#git">
+                                <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+                            </a>
+                        </div>
+                        <div class="collapse" id="git" data-parent="#accordian">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a
+                                    group
+                                    of
+                                    other
+                                    adventurers!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" data-target="#mango">
+                                <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
+                            </a>
+                        </div>
+                        <div class="collapse" id="mango" data-parent="#accordian">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all
+                                    kinds?
+                                    Stop
+                                    by Mongo
+                                    Fly Shop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" data-target="#node">
+                                <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+                            </a>
+                        </div>
+                        <div class=" collapse" id="node" data-parent="#accordian">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a
+                                    visit to
+                                    Node
+                                    will be sure to get you covered.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
         <div class="row">
             <div class="col-sm-9">
